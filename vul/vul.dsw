@@ -1,0 +1,113 @@
+Microsoft Developer Studio Workspace File, Format Version 6.00
+# 警告: 不能编辑或删除该工作区文件！
+
+###############################################################################
+
+Project: "ms06_040"=".\ms06_040\ms06_040.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "vul"=".\vul.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "vul通过跳板跳转"=".\vul通过跳板跳转\vul通过跳板跳转.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "vul直接跳转"=".\vul直接跳转\vul直接跳转.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "通用MessageBoxShellCode"=".\通用MessageBoxShellCode\通用MessageBoxShellCode.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "通用URLDownloadToFileA和ShellExecute"=".\通用URLDownloadToFileA和ShellExecute\通用URLDownloadToFileA和ShellExecute.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "通用URLDownloadToFileA和ShellExecuteA以及CoInitialize"=".\通用URLDownloadToFileA和ShellExecuteA以及CoInitialize\通用URLDownloadToFileA和ShellExecuteA以及CoInitialize.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "通用URLDownloadToFileA和ShellExecuteA以及CoInitialize的ShellCode"=".\通用URLDownloadToFileA和ShellExecuteA以及CoInitialize的ShellCode\通用URLDownloadToFileA和ShellExecuteA以及CoInitialize的ShellCode.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Global:
+
+Package=<5>
+{{{
+}}}
+
+Package=<3>
+{{{
+}}}
+
+###############################################################################
+

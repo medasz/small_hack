@@ -1,0 +1,3 @@
+LIBRARY	"CustomDll"
+EXPORTS
+DLLFuncAdd

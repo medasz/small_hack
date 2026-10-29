@@ -1,0 +1,117 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG DIALOGEX 0, 0, 510, 260
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "注册表编辑器"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "主键",IDC_STATIC,26,25,17,8
+    LTEXT           "子键",IDC_STATIC,24,50,17,8
+    COMBOBOX        IDC_COMBO_RKEY,53,23,119,59,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EDIT_PATH,54,47,218,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "打开子键",IDC_BUTTON_OPEN,219,66,50,14
+    PUSHBUTTON      "后退",IDC_BUTTON_BACK,159,65,50,14
+    GROUPBOX        "子键管理",IDC_STATIC,18,88,252,156
+    PUSHBUTTON      "删除子键",IDC_BUTTON_DELKEY,24,101,50,14
+    EDITTEXT        IDC_EDIT_ADD,83,101,106,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "添加子键",IDC_BUTTON_ADDKEY,208,101,50,14
+    LISTBOX         IDC_LIST_KEY,25,120,235,120,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "键值管理",IDC_STATIC,275,17,220,226
+    LTEXT           "键值名称",IDC_STATIC,280,37,33,8
+    EDITTEXT        IDC_EDIT_VALUENAME,319,35,166,14,ES_AUTOHSCROLL
+    LTEXT           "数据",IDC_STATIC,294,62,17,8
+    EDITTEXT        IDC_EDIT_VALUEDATA,319,63,167,50,ES_MULTILINE | ES_AUTOHSCROLL
+    LTEXT           "类型",IDC_STATIC,295,121,17,8
+    COMBOBOX        IDC_COMBO_VLUTYPE,319,121,167,70,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "删除键值",IDC_BUTTON_DELEVALUE,283,140,50,14
+    PUSHBUTTON      "存储键值",IDC_BUTTON_SAVE,362,141,50,14
+    PUSHBUTTON      "读取键值",IDC_BUTTON_READ,435,141,50,14
+    LISTBOX         IDC_LIST_VALUE,283,158,205,81,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 503
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 253
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
