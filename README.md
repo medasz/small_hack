@@ -4,3 +4,7 @@
 
 
 其他是在`win7`和`vs2008`中编译测试的
+
+
+
+ms06040复现在以下平台：`Microsoft Windows2000 5.00.2195Service Pack 4`
